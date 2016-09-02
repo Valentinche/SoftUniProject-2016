@@ -1,0 +1,92 @@
+.new-post-title {
+    width: 250px;
+}
+
+.new-post-block {
+    background: rgba(191, 191, 191, 0.75);
+    width: 0px auto;
+    margin: 200px 300px 50px 300px;
+    padding: 20px;
+    border-radius: 60px;
+    border: 5px solid #06c0ab;
+    text-align: center;
+
+}
+
+#editor-title {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font: 24px Lato-Black;
+    text-align: center;
+}
+
+#post-form {
+    background-color: rgba(45, 179, 139, 0.6);
+    border-radius: 60px;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+}
+
+.title-author{
+    margin-left: 10px;
+    width: 0 auto;
+    padding-bottom: 10px;
+
+}
+.single-element-form {
+    display: inline-block;
+    padding-right: 50px;
+}
+.create-title{
+    font:12px Lato-light;
+    border-radius: 10px;
+    text-align: center;
+}
+.create-title:focus{
+    font: 12px Lato;
+    outline: none;
+    border: 3px solid #06c0ab;
+}
+.title-form{
+    text-align: center;
+
+}
+.recapy-form{
+    width: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.content-field {
+    background-color: rgba(245, 222, 179, 0.59);
+    resize: none;
+    border: 3px solid #f2f2f2;
+    outline: none;
+    width: 550px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: left;
+    font: 12px Lato-Light;
+    padding: 10px;
+
+}
+
+.content-field:focus {
+    font: 12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #06c0ab;
+}
+button{
+    font: 16px Lato;
+    color: white;
+    background-color: #cc0000;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+}
+
+

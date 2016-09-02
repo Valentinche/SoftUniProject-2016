@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+</head>
+<body>
+{{#blogPosts}}
+<li class="single-post">
+    <article id="post-{{postId}}">
+        <div class="dot">&nbsp;</div>
+        <h3 class="title">{{title}}</h3>
+        <p class="subtitle">{{category}} добавена на {{date}} от {{author}} </p>
+        <p class="content">{{content}}</p>
+    </article>
+</li>
+{{/blogPosts}}
+</body>
+</html>

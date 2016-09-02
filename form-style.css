@@ -1,0 +1,103 @@
+
+/*FORM- STYLE*/
+.user-login-block {
+    border-radius: 15px;
+    background-image: url("../images/bamboo.png ");/*color: rgba(45, 179, 139, 0.6);*/
+    opacity: 0.9;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+   /* margin: 15% 15%;*/
+    width: 630px;
+    height: 629px;
+    margin-top: 100px;
+    text-align: center;
+    float: right;
+    /*border: double;*/
+    display:inline-block;
+}
+.user-register {
+
+    text-align: center;
+    display: block;
+    padding-top:110px;
+}
+
+/*form {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+
+}*/
+
+.form-title {
+    font: 22px Oswald;
+    font-weight: 400;
+    color: black;
+    padding: 0 5px 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input {
+    border-radius: 30px;
+    border: 3px solid #f2f2f2;
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 10px;
+    text-align: center;
+
+}
+
+input:focus {
+    font: 12px Lato;
+    font-weight: 100;
+    outline: none;
+    border: 3px solid #06c0ab;
+}
+
+/*button {
+    font: 16px Lato;
+    color: white;
+    background-color: #cc0000;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+}*/
+
+button:hover {
+    background-color: #565656;
+}
+
+.form-link {
+    text-decoration: none;
+    color: #048e76;
+    font: 20px Lato;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.register-title {
+    width: 200px;
+    text-decoration: none;
+    color: #730099;
+}
+.blog-title-form{
+
+    width: auto;
+    float: right;
+    text-shadow:2px 3px 1px rgba(0,0,0,1);
+    font-weight:normal;
+    font-style:italic;
+    color:#FFFFFF;letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:35px;
+    text-align:right;
+    font-family:times new roman, times, serif;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+
+/*END FORM*/

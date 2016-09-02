@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Създай рецепта</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/new-post-style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="new-post-block">
+    <h2 id="editor-title">Нова рецепта</h2>
+
+    <form id="post-form">
+        <ul class="title-author">
+            <li class="single-element-form">
+                <h1 class="title-form">Заглавие:</h1>
+                <input type="text" value="" placeholder="Напиши заглавие" class="create-title" id="title"/>
+            </li>
+
+            <li class="single-element-form">
+                <h1 class="title-form">Автор:</h1>
+                <input type="text" value="" placeholder="Автор" id="author" class="create-title">
+            </li>
+
+
+            <li class="single-element-form">
+                <h1 class="title-form">Избери категория:</h1>
+                <select name="category" id="category">
+                    <option value="Салата" name="salad">Салати</option>
+                    <option value="Супа" name="soup">Супи</option>
+                    <option value="Десерт" name="dessert">Десерти</option>
+                </select>
+
+            </li>
+        </ul>
+
+        <h1 class="recapy-form">Рецепта:</h1>
+        <textarea class="content-field" placeholder="Съдържание" id="content"></textarea>
+        <br>
+
+    </form>
+    <button type="button" id="create-new-post-request-button">Създай</button>
+</div>
+
+<footer>
+    <p class="footer-text">&copy; T & G. Всички права запазени.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*New CSS*/
+body{
+	line-height:1;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100% ), url('../images/ORGANIC-FOOD.jpg');
+	background-size: 100%;
+}
+
+.wrapper{
+	margin: 0 auto;
+	/*width: 0 auto;
+	height: 0px auto;*/
+	padding: 15px;
+}
+
+/*header CSS*/
+.header-container{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	width:  auto;
+	display: block;
+
+}
+
+.nav-bar{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	height: 30px;
+	background-color: rgba(45, 179, 139, 0.6);
+	color: white;
+	font: 20px courier new, courier, monospace;
+	font-weight: 100;
+	text-align: left;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	padding: 2px 8px 2px 8px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+
+.blog-title {
+	width: auto;
+	float: right;
+	text-shadow:2px 3px 1px rgba(0,0,0,1);
+	font-weight:normal;
+	font-style:italic;
+	color:#FFFFFF;letter-spacing:1pt;
+	word-spacing:2pt;
+	font-size:35px;
+	text-align:right;
+	font-family:times new roman, times, serif;
+	border-bottom: 3px solid;
+	display: inline-block;
+}
+.single-menu-elemnt-link{
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+}
+
+.single-menu-elemnt-link:hover{
+	font-weight: bold;
+}
+/*END HEADER */
+
+/*SIDE-BAR*/
+.right-sidebar{
+	background-image: url('../images/old_paper.png');
+	width: 463px;
+	height: 668px;
+	opacity: 0.9;
+	margin-top: 90px;
+	float:right;
+	display: inline;
+}
+.single-side-bar-element-link{
+	text-decoration: none;
+	text-shadow:2px 3px 1px rgb(255, 191, 128);
+	color: black;
+	font-weight: 300;
+	display: block;
+	margin-left: 70px;
+	padding: 5px;
+}
+.single-side-bar-element-link:hover{
+	font-weight: bold;
+}
+.nav-sidebar-content{
+	padding-top: 200px;
+	padding-left: 30px;
+}
+/*END SIDE-BAR*/
+
+/*LAST-RECEPT-CONTENT CSS*/
+.last-recept-content{
+	background-image: url('../images/old_scroll_paper.png');
+	width: 1024px;
+	height: 668px;
+	opacity: 0.8;
+	float: left;
+	display: inline;
+	margin-top: 90px;
+	overflow-y: auto;
+}
+
+.articles{
+	text-shadow:2px 3px 1px rgb(255, 191, 128);
+	color: black;
+	font-weight: 300;
+	display: block;
+	margin-left: 70px;
+	padding: 8px;
+	margin: 5px 0px 5px 120px;
+
+}
+.last-recept{
+	padding-top: 120px;
+	padding-left: 120px;
+	text-shadow:9px 5px 1px 
+    rgba(36,35,24,0.4);
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+	letter-spacing:2pt;
+	word-spacing:5pt;
+	font-size:20px;
+	text-align:center;
+	font-family:georgia, 
+	serif;line-height:1;
+}
+/*END CONTENT*/
+
+/*FOOTER*/
+footer{ 
+	margin-top: 90px;	
+	bottom: 0;	
+	display: block;
+
+}
+
+.footer-text{
+	text-shadow:2px 3px 1px rgba(0,0,0,1);
+	font-weight:normal;
+	font-style:italic;
+	color:#FFFFFF;letter-spacing:1pt;
+	word-spacing:2pt;
+	font-size:18px;
+	text-align:center;
+	font-family:times new roman, times, serif;
+	line-height:1;
+}
+/*END FOOTER*/
